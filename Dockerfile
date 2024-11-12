@@ -6,4 +6,4 @@ COPY ./src /srv
 
 RUN pip install langchain langchain-chroma langchain-mistralai aiogram
 
-CMD ["python", "api.py"]
+CMD ["python", "srv.py"]
